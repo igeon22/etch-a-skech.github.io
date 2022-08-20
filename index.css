@@ -1,0 +1,95 @@
+*
+{
+	font-family: "Calibri";
+}
+
+html
+{
+	background-color: rgb(233, 140, 171);
+}
+
+.container
+{
+	display: grid;
+	height: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
+	box-shadow: 3px 3px 3px 3px rgb(228, 111, 150);
+	border-radius: 18px;
+	/* grid-template-columns:  repeat(4,1fr);
+	grid-template-rows: repeat(4,1fr); */
+}
+
+h1
+{
+	font-family: 'calibri';
+}
+
+
+.item,#bx
+{
+	border: 1px solid rgb(255, 255, 255);
+	border-spacing: 0;
+	
+}
+
+
+.header-button
+{
+	display: flex;
+	justify-content: center;
+}
+
+.item:hover,#bx:hover
+{
+	border-collapse: add;
+	background-color: rgb(0, 0, 0);
+}
+
+
+.size
+{
+	width: 220px;
+	height: 35px;
+	
+}
+
+#test
+{
+	visibility: hidden;
+}
+
+
+.c-btn,.btn{
+	background-color: rgb(0, 0, 0);
+	box-shadow: 1px 1px 1px 1px rgb(121, 120, 120);
+	transition: 0.5s ease;
+	color: white;
+	margin: 20px 15px;
+	font-size: 1.4em;
+	border: 1px solid transparent;
+	border-radius: 8px;
+}
+
+.c-btn:hover,.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+h1
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 2px  black;
+	font-style: italic;
+	font-size: 2.5em;
+}
+
+.end{
+	text-align: center;
+	font-size: 1.5em;
+
+}
